@@ -16,10 +16,10 @@ class: center, middle, inverse, title-slide
 # Analyse
 ]
 .author[
-### Einführung in die moderne Datenanalyse mit R<br> <a href='https://therbootcamp.github.io'> The R Bootcamp </a> <br> <a href='https://therbootcamp.github.io/I2R_2024Feb/'> <i class='fas fa-clock' style='font-size:.9em;'></i> </a>  <a href='https://therbootcamp.github.io'> <i class='fas fa-home' style='font-size:.9em;' ></i> </a>  <a href='mailto:therbootcamp@gmail.com'> <i class='fas fa-envelope' style='font-size: .9em;'></i> </a>  <a href='https://www.linkedin.com/company/basel-r-bootcamp/'> <i class='fab fa-linkedin' style='font-size: .9em;'></i> </a>
+### Einführung in die moderne Datenanalyse mit R<br> <a href='https://therbootcamp.github.io'> The R Bootcamp </a> <br> <a href='https://therbootcamp.github.io/I2R_2024Nov/'> <i class='fas fa-clock' style='font-size:.9em;'></i> </a>  <a href='https://therbootcamp.github.io'> <i class='fas fa-home' style='font-size:.9em;' ></i> </a>  <a href='mailto:therbootcamp@gmail.com'> <i class='fas fa-envelope' style='font-size: .9em;'></i> </a>  <a href='https://www.linkedin.com/company/basel-r-bootcamp/'> <i class='fab fa-linkedin' style='font-size: .9em;'></i> </a>
 ]
 .date[
-### Februar 2024
+### November 2024
 ]
 
 ---
@@ -41,7 +41,7 @@ layout: true
     &lt;/a&gt;
     &lt;a href="https://therbootcamp.github.io/"&gt;
       &lt;font color="#7E7E7E"&gt;
-      Einführung in die moderne Datenanalyse mit R | Februar 2024
+      Einführung in die moderne Datenanalyse mit R | November 2024
       &lt;/font&gt;
     &lt;/a&gt;
     &lt;/span&gt;
@@ -103,7 +103,7 @@ layout: true
 
 
 
-```r
+``` r
 # Lese Daten in ein Objekt ein
 daten &lt;- read.csv('1_Data/Tourismus.csv')
 
@@ -115,7 +115,7 @@ mean(daten$Dauer)
 ## [1] 2.428
 ```
 
-```r
+``` r
 # Median Dauer
 median(daten$Dauer)
 ```
@@ -124,7 +124,7 @@ median(daten$Dauer)
 ## [1] 2.28
 ```
 
-```r
+``` r
 # Standardabweichung Dauer
 sd(daten$Dauer)
 ```
@@ -159,7 +159,7 @@ sd(daten$Dauer)
 
 
 
-```r
+``` r
 # Lese Daten in ein Objekt ein
 daten &lt;- read.csv('1_Data/Tourismus.csv')
 
@@ -200,7 +200,7 @@ summary(daten$Dauer)
 
 
 
-```r
+``` r
 # Lese Daten in ein Objekt ein
 daten &lt;- read.csv('1_Data/Tourismus.csv')
 
@@ -238,7 +238,7 @@ cor(daten$Dauer, daten$Besucher)
 
 
 
-```r
+``` r
 # Lese Daten in ein Objekt ein
 daten &lt;- read.csv('1_Data/Tourismus.csv')
 
@@ -287,7 +287,7 @@ aggregate(daten$Dauer, list(daten$Region), mean)
 
 
 
-```r
+``` r
 # Lese Daten in ein Objekt ein
 daten &lt;- read.csv('1_Data/Tourismus.csv')
 
@@ -337,7 +337,7 @@ anova(lm(daten$Dauer ~ daten$Region))
 
 
 
-```r
+``` r
 # Lese Daten in ein Objekt ein
 daten &lt;- read.csv('1_Data/Tourismus.csv')
 
@@ -383,7 +383,7 @@ anova(lm(daten$Besucher ~ daten$Region))
 
 
 
-```r
+``` r
 # Histogramm Dauer
 hist(daten$Dauer)
 ```
@@ -416,7 +416,7 @@ hist(daten$Dauer)
 
 
 
-```r
+``` r
 # Histogramm Besucher
 hist(daten$Besucher)
 ```
@@ -449,7 +449,7 @@ hist(daten$Besucher)
 
 
 
-```r
+``` r
 # Streudiagram Besucher x Dauer
 plot(daten$Besucher, daten$Dauer)
 ```
@@ -482,7 +482,7 @@ plot(daten$Besucher, daten$Dauer)
 
 
 
-```r
+``` r
 # Streudiagram Besucher x Dauer
 plot(daten$Besucher, daten$Dauer,
      log = "xy")
@@ -516,7 +516,7 @@ plot(daten$Besucher, daten$Dauer,
 
 
 
-```r
+``` r
 # Streudiagram Besucher x Dauer
 plot(daten$Besucher, daten$Dauer,
      log = "xy", col = 'red', pch = 16,
@@ -551,7 +551,7 @@ plot(daten$Besucher, daten$Dauer,
 
 
 
-```r
+``` r
 # Boxplot Dauer nach Region
 boxplot(daten$Dauer ~ daten$Region,
         log="y")
@@ -585,7 +585,7 @@ boxplot(daten$Dauer ~ daten$Region,
 
 
 
-```r
+``` r
 # Boxplot Besucher nach Region
 boxplot(daten$Besucher ~ daten$Region,
         log="y")
