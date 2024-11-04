@@ -5,7 +5,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
     The R Bootcamp
   </a>
   <br>
-  <a href='https://therbootcamp.github.io/I2R_2024Feb/'>
+  <a href='https://therbootcamp.github.io/I2R_2024Nov/'>
     <i class='fas fa-clock' style='font-size:.9em;'></i>
   </a>&#8239; 
   <a href='https://therbootcamp.github.io'>
@@ -17,7 +17,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
   <a href='https://www.linkedin.com/company/basel-r-bootcamp/'>
     <i class='fab fa-linkedin' style='font-size: .9em;'></i>
   </a>"
-date: "Februar 2024"
+date: "November 2024"
 output:
   xaringan::moon_reader:
     css: ["default", "baselrbootcamp.css"]
@@ -45,7 +45,7 @@ layout: true
     </a>
     <a href="https://therbootcamp.github.io/">
       <font color="#7E7E7E">
-      Einführung in die moderne Datenanalyse mit R | Februar 2024
+      Einführung in die moderne Datenanalyse mit R | November 2024
       </font>
     </a>
     </span>
@@ -58,7 +58,7 @@ options(htmltools.dir.version = FALSE)
 options(width=110)
 options(digits = 4)
 library(tidyverse)
-baselers <- read_csv("https://raw.githubusercontent.com/therbootcamp/baselers/master/inst/extdata/baselers.txt")
+#baselers <- read_csv("https://raw.githubusercontent.com/therbootcamp/baselers/master/inst/extdata/baselers.txt")
 ```
 
 
@@ -81,8 +81,8 @@ baselers <- read_csv("https://raw.githubusercontent.com/therbootcamp/baselers/ma
 
 <p align = "center">
   <br><br>
-  <img src="image/jobs2022.png" height = 520px><br>
-  <font style="font-size:10px">adapted from <a href="https://www.weforum.org/agenda/2018/09/future-of-jobs-2018-things-to-know/">weforum.org</a></font>
+  <img src="image/jobs2023.png" height = 520px><br>
+  <font style="font-size:10px">adapted from <a href="https://www.index.dev/blog/7-most-in-demand-ai-jobs-and-high-paying-careers-right-now">index.dev</a></font>
 </p>
 
 ]
@@ -280,7 +280,7 @@ baselers <- read_csv("https://raw.githubusercontent.com/therbootcamp/baselers/ma
 
 --->
 
-# Dominante Tools
+# Dominante Programmiersprachen für Datenanalyse
 
 <br><br>
 <p align = "center">
@@ -409,7 +409,7 @@ baselers <- read_csv("https://raw.githubusercontent.com/therbootcamp/baselers/ma
 
 ---
 
-# R bleibt relevant
+# R ist und bleibt relevant
 <br>
 <table class="tg"  style="cellspacing:0; cellpadding:0; border:none;" width="95%">
 <col width="25%">
@@ -443,4 +443,4 @@ baselers <- read_csv("https://raw.githubusercontent.com/therbootcamp/baselers/ma
 ---
 class: middle, center
 
-<h1><a href=https://therbootcamp.github.io/I2R_2024Feb/index.html>Schedule</a></h1>
+<h1><a href=https://therbootcamp.github.io/I2R_2024Nov/index.html>Schedule</a></h1>
