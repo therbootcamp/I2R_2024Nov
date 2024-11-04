@@ -5,7 +5,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
     The R Bootcamp
   </a>
   <br>
-  <a href='https://therbootcamp.github.io/I2R_2024Feb/'>
+  <a href='https://therbootcamp.github.io/I2R_2024Nov/'>
     <i class='fas fa-clock' style='font-size:.9em;'></i>
   </a>&#8239; 
   <a href='https://therbootcamp.github.io'>
@@ -17,7 +17,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
   <a href='https://www.linkedin.com/company/basel-r-bootcamp/'>
     <i class='fab fa-linkedin' style='font-size: .9em;'></i>
   </a>"
-date: "Februar 2024"
+date: "November 2024"
 output:
   xaringan::moon_reader:
     css: ["default", "baselrbootcamp.css"]
@@ -45,7 +45,7 @@ layout: true
     </a>
     <a href="https://therbootcamp.github.io/">
       <font color="#7E7E7E">
-      Einführung in die moderne Datenanalyse mit R | Februar 2024
+      Einführung in die moderne Datenanalyse mit R | November 2024
       </font>
     </a>
     </span>
@@ -117,13 +117,13 @@ require(tidyverse)
 
 .pull-right5[
 
-R is eine **open-source Programmiersprache** für **statistische Berechnungen und Graphiken** die von der **R Foundation for Statistical Computing** supported wird. R wird **stark von Statistkern und Datenanalysten** für die Entwicklung von statistischer Software und Datenanalyse verwendet. 
+R is eine **open-source Programmiersprache** für **statistische Berechnungen und Graphiken** die von der **R Foundation for Statistical Computing** supported wird. R wird viel von **Statistkern und Datenanalysten** für die Entwicklung von statistischer Software und Datenanalyse verwendet. 
 
 Der Code der R unterliegt ist hauptsächlich in **C, Fortran, and R** geschrieben. R ist unter der GNU General Public License frei verfügbar, und es existieren Versionen für alle üblichen Betriebssysteme. Währed R für sich nur ein **command line interface** besitzt, exisistieren verschiedene **graphische Nutzerinterfaces**.
 
 R wurde 1993 von Ross Ihaka und Robert Gentlemen auf Basis der Programmiersprache S entwickelt.  
 
-<font style="font-size:12px">Adapted from <a href="https://en.wikipedia.org/wiki/Statistical_model">Wikipedia</a> (emphasis added)</font>
+<font style="font-size:12px">Adaptiert von <a href="https://de.wikipedia.org/wiki/R_(Programmiersprache)">Wikipedia</a> </font>
 
 ]
 
@@ -290,7 +290,7 @@ Shortcut für <high>führe Chunk wiederholt aus</high>:<br><br2><font size = 6> 
 
 .pull-right5[
 
-<b>Projekte helfen bei...</b><br>
+<b>Projekte helfen...</b><br>
 workspace und history speichern &#9679; projektspezifische Optionen setzen &#9679; Dateien finden &#9679; Versionskontrolle &#9679; etc.
 <br><br>
 <p align = "left">
