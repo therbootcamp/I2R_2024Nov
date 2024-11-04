@@ -16,10 +16,10 @@ class: center, middle, inverse, title-slide
 # Data IO
 ]
 .author[
-### Einführung in die moderne Datenanalyse mit R<br> <a href='https://therbootcamp.github.io'> The R Bootcamp </a> <br> <a href='https://therbootcamp.github.io/I2R_2024Feb/'> <i class='fas fa-clock' style='font-size:.9em;'></i> </a>  <a href='https://therbootcamp.github.io'> <i class='fas fa-home' style='font-size:.9em;' ></i> </a>  <a href='mailto:therbootcamp@gmail.com'> <i class='fas fa-envelope' style='font-size: .9em;'></i> </a>  <a href='https://www.linkedin.com/company/basel-r-bootcamp/'> <i class='fab fa-linkedin' style='font-size: .9em;'></i> </a>
+### Einführung in die moderne Datenanalyse mit R<br> <a href='https://therbootcamp.github.io'> The R Bootcamp </a> <br> <a href='https://therbootcamp.github.io/I2R_2024Nov/'> <i class='fas fa-clock' style='font-size:.9em;'></i> </a>  <a href='https://therbootcamp.github.io'> <i class='fas fa-home' style='font-size:.9em;' ></i> </a>  <a href='mailto:therbootcamp@gmail.com'> <i class='fas fa-envelope' style='font-size: .9em;'></i> </a>  <a href='https://www.linkedin.com/company/basel-r-bootcamp/'> <i class='fab fa-linkedin' style='font-size: .9em;'></i> </a>
 ]
 .date[
-### Februar 2024
+### November 2024
 ]
 
 ---
@@ -41,7 +41,7 @@ layout: true
     &lt;/a&gt;
     &lt;a href="https://therbootcamp.github.io/"&gt;
       &lt;font color="#7E7E7E"&gt;
-      Einführung in die moderne Datenanalyse mit R | Februar 2024
+      Einführung in die moderne Datenanalyse mit R | November 2024
       &lt;/font&gt;
     &lt;/a&gt;
     &lt;/span&gt;
@@ -107,7 +107,7 @@ layout: true
 
 
 
-```r
+``` r
 # Lese Daten ein
 read.csv('1_Data/Tourismus.csv')
 ```
@@ -155,7 +155,7 @@ read.csv('1_Data/Tourismus.csv')
 
 
 
-```r
+``` r
 # Lese Daten in ein Objekt ein
 daten &lt;- read.csv('1_Data/Tourismus.csv')
 
@@ -295,7 +295,7 @@ daten
 
 
 
-```r
+``` r
 # Lese Daten in ein Objekt ein
 daten &lt;- read.csv('1_Data/Tourismus.csv')
 
@@ -307,7 +307,7 @@ class(daten)
 ## [1] "data.frame"
 ```
 
-```r
+``` r
 dim(daten) # Dimensionen
 ```
 
@@ -315,7 +315,7 @@ dim(daten) # Dimensionen
 ## [1] 71  5
 ```
 
-```r
+``` r
 names(daten) # Variablennamen
 ```
 
@@ -383,7 +383,7 @@ names(daten) # Variablennamen
 
 
 
-```r
+``` r
 # Lese Daten in ein Objekt ein
 daten &lt;- read.csv('1_Data/Tourismus.csv')
 
@@ -434,7 +434,7 @@ daten$Dauer
 
 
 
-```r
+``` r
 # Lese Daten in ein Objekt ein
 daten &lt;- read.csv('1_Data/Tourismus.csv')
 
@@ -475,7 +475,7 @@ class(daten$Dauer)
 
 
 
-```r
+``` r
 # Lese Daten in ein Objekt ein
 daten &lt;- read.csv('1_Data/Tourismus.csv')
 
@@ -525,7 +525,7 @@ daten$Land
 
 
 
-```r
+``` r
 # Lese Daten in ein Objekt ein
 daten &lt;- read.csv('1_Data/Tourismus.csv')
 
@@ -565,7 +565,7 @@ class(daten$Land)
 
 
 
-```r
+``` r
 # Schreibe Daten auf die Festplatte als csv
 write.csv(daten, '1_Data/Tourismus_neu.csv')
 
