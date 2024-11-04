@@ -5,7 +5,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
     The R Bootcamp
   </a>
   <br>
-  <a href='https://therbootcamp.github.io/I2R_2024Feb/'>
+  <a href='https://therbootcamp.github.io/I2R_2024Nov/'>
     <i class='fas fa-clock' style='font-size:.9em;'></i>
   </a>&#8239; 
   <a href='https://therbootcamp.github.io'>
@@ -17,7 +17,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
   <a href='https://www.linkedin.com/company/basel-r-bootcamp/'>
     <i class='fab fa-linkedin' style='font-size: .9em;'></i>
   </a>"
-date: "Februar 2024"
+date: "November 2024"
 output:
   xaringan::moon_reader:
     css: ["default", "baselrbootcamp.css"]
@@ -45,7 +45,7 @@ layout: true
     </a>
     <a href="https://therbootcamp.github.io/">
       <font color="#7E7E7E">
-      Einführung in die moderne Datenanalyse mit R | Februar 2024
+      Einführung in die moderne Datenanalyse mit R | November 2024
       </font>
     </a>
     </span>
@@ -87,8 +87,8 @@ Ihr kennt nun die Grundlagen von R!
 
 <font size = 6>
 
-1. `tidyverse` Kern<br>
-2. `tidyverse` erweitert<br>
+1. tidyverse Kern<br>
+2. tidyverse erweitert<br>
 3. Statistik<br>
 4. Maschinelles Lernen<br>
 5. Reporting<br>
@@ -716,7 +716,8 @@ R und RStudio bieten auch exzellente Werkzeuge zum erstellen von <high>Berichten
 <br>
 
 .pull-right5[
-<p align="center"><img border="0" alt="W3Schools" src="http://www.theunmanageableemployee.com/wp-content/uploads/2011/07/5cs-stones-cropped-11052730.jpg?w=112"></p>
+<p align="center"><img height="350" alt="image of stairs" src="image/stairs_small.jpg"></p>
+<font style="font-size:10px">Foto von <a href="https://www.pexels.com/de-de/foto/treppen-graustufenfotografie-921025/">Jorge Arturo Andrade</a></font>
 ]
 
 ---
@@ -793,67 +794,67 @@ Hier ist eine unvollständige Liste guter Bücher über R lose geordnet nach vor
 <br>
 
 
----
+<!-- --- -->
 
-# Weiterführende Kurse
+<!-- # Weiterführende Kurse -->
 
 
-<table class="tg"  style="cellspacing:0; cellpadding:0; border:none;">
-<tr valign="top">
-  <col width="20%">
-  <col width="20%">
-  <col width="20%">
-  <col width="20%">
-  <col width="20%">
-  <!-- <td> -->
-  <!--   <p align="center"> -->
-  <!--     <a class="project-link" href="https://therbootcamp.github.io/#courses" align="center"> -->
-  <!--     <font style="font-size:20px;weight:700"><br>Einführung in die moderne Datenanalyse mit R</font><br> -->
-  <!--     <br> -->
-  <!--     <img src="https://therbootcamp.github.io/img/courses/0.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br> -->
-  <!--     <high>Apr 8,<br>2022</high><br><br><br><br> -->
-  <!--   </p> -->
-  <!-- </td> -->
-  <td>
-    <p align="center">
-      <a class="project-link" href="https://advancedstudies.unibas.ch/studienangebot/kurs/explorative-datenanalyse-mit-r-webinar-272006" align="center">
-      <font style="font-size:20px;weight:700"><br>Explorative Datenanalyse mit R<br></font><br>
-      <br>
-      <img src="https://therbootcamp.github.io/img/courses/1.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br>
-      <high>15-16. März</high><br><br><br><br>
-    </p>
-  </td>
-  <td>
-    <p align="center">
-      <a class="project-link" href="https://therbootcamp.github.io/#courses" align="center">
-      <font style="font-size:20px;weight:700"><br>Statistik mit R<br><br></font><br>
-      <br>
-      <img src="https://therbootcamp.github.io/img/courses/2.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br>
-      <high>tba</high><br><br><br><br>
-      </a>
-    </p>
-  </td>
-  <td>
-    <p align="center">
-      <a class="project-link" href="https://therbootcamp.github.io/#courses" align="center">
-      <font style="font-size:20px;weight:700"><br>Maschinelles Lernen mit R<br></font><br>
-      <br>
-      <img src="https://therbootcamp.github.io/img/courses/3.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br>
-      <high>tba</high><br><br><br><br>
-      </a>
-    </p>
-  </td>
-  <td>
-    <p align="center">
-      <a class="project-link" href="https://therbootcamp.github.io/#courses" align="center">
-      <font style="font-size:20px;weight:700"><br>Reporting mit R<br><br></font><br>
-      <br>
-      <img src="https://therbootcamp.github.io/img/courses/4.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br>
-      <high>tba</high><br><br><br><br>
-      </a>
-    </p>
-  </td>
-  </tr>
+<!-- <table class="tg"  style="cellspacing:0; cellpadding:0; border:none;"> -->
+<!-- <tr valign="top"> -->
+<!--   <col width="20%"> -->
+<!--   <col width="20%"> -->
+<!--   <col width="20%"> -->
+<!--   <col width="20%"> -->
+<!--   <col width="20%"> -->
+<!--   <!-- <td> --> 
+<!--   <!--   <p align="center"> -->
+<!--   <!--     <a class="project-link" href="https://therbootcamp.github.io/#courses" align="center"> --> 
+<!--   <!--     <font style="font-size:20px;weight:700"><br>Einführung in die moderne Datenanalyse mit R</font><br> -->
+<!--   <!--     <br> --> 
+<!--   <!--     <img src="https://therbootcamp.github.io/img/courses/0.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br> --> 
+<!--   <!--     <high>Apr 8,<br>2022</high><br><br><br><br> -->
+<!--   <!--   </p> -->
+<!--   <!-- </td> -->
+<!--   <td> -->
+<!--     <p align="center"> -->
+<!--       <a class="project-link" href="https://advancedstudies.unibas.ch/studienangebot/kurs/explorative-datenanalyse-mit-r-webinar-272006" align="center"> -->
+<!--       <font style="font-size:20px;weight:700"><br>Explorative Datenanalyse mit R<br></font><br> -->
+<!--       <br> -->
+<!--       <img src="https://therbootcamp.github.io/img/courses/1.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br> -->
+<!--       <high>15-16. März</high><br><br><br><br> -->
+<!--     </p> -->
+<!--   </td> -->
+<!--   <td> -->
+<!--     <p align="center"> -->
+<!--       <a class="project-link" href="https://therbootcamp.github.io/#courses" align="center"> -->
+<!--       <font style="font-size:20px;weight:700"><br>Statistik mit R<br><br></font><br> -->
+<!--       <br> -->
+<!--       <img src="https://therbootcamp.github.io/img/courses/2.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br> -->
+<!--       <high>tba</high><br><br><br><br> -->
+<!--       </a> -->
+<!--     </p> -->
+<!--   </td> -->
+<!--   <td> -->
+<!--     <p align="center"> -->
+<!--       <a class="project-link" href="https://therbootcamp.github.io/#courses" align="center"> -->
+<!--       <font style="font-size:20px;weight:700"><br>Maschinelles Lernen mit R<br></font><br> -->
+<!--       <br> -->
+<!--       <img src="https://therbootcamp.github.io/img/courses/3.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br> -->
+<!--       <high>tba</high><br><br><br><br> -->
+<!--       </a> -->
+<!--     </p> -->
+<!--   </td> -->
+<!--   <td> -->
+<!--     <p align="center"> -->
+<!--       <a class="project-link" href="https://therbootcamp.github.io/#courses" align="center"> -->
+<!--       <font style="font-size:20px;weight:700"><br>Reporting mit R<br><br></font><br> -->
+<!--       <br> -->
+<!--       <img src="https://therbootcamp.github.io/img/courses/4.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br> -->
+<!--       <high>tba</high><br><br><br><br> -->
+<!--       </a> -->
+<!--     </p> -->
+<!--   </td> -->
+<!--   </tr> -->
 
 
 ---
@@ -872,8 +873,7 @@ Hier ist eine unvollständige Liste guter Bücher über R lose geordnet nach vor
 .pull-right45[
 
 <p align="center"><br><br>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdoOFbnEebwvKpt9gJl7Pr68jPVGYP7FRBgrJus-QvGfRTWPA/viewform?embedded=true" width="430" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
-
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScXlWyK_oGIf3am1YFVtR33DEgIQCEj_iTfyAGDn0tBJl_kDw/viewform?embedded=true" width="430" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ]
 

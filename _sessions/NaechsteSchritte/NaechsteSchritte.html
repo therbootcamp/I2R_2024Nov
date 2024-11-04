@@ -4,7 +4,7 @@
     <title>Nächste Schritte</title>
     <meta charset="utf-8" />
     <meta name="author" content="Einführung in die moderne Datenanalyse mit R   The R Bootcamp                  " />
-    <script src="libs/header-attrs-2.21/header-attrs.js"></script>
+    <script src="libs/header-attrs-2.27/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link rel="stylesheet" href="baselrbootcamp.css" type="text/css" />
   </head>
@@ -16,10 +16,10 @@ class: center, middle, inverse, title-slide
 # Nächste Schritte
 ]
 .author[
-### Einführung in die moderne Datenanalyse mit R<br> <a href='https://therbootcamp.github.io'> The R Bootcamp </a> <br> <a href='https://therbootcamp.github.io/I2R_2024Feb/'> <i class='fas fa-clock' style='font-size:.9em;'></i> </a>  <a href='https://therbootcamp.github.io'> <i class='fas fa-home' style='font-size:.9em;' ></i> </a>  <a href='mailto:therbootcamp@gmail.com'> <i class='fas fa-envelope' style='font-size: .9em;'></i> </a>  <a href='https://www.linkedin.com/company/basel-r-bootcamp/'> <i class='fab fa-linkedin' style='font-size: .9em;'></i> </a>
+### Einführung in die moderne Datenanalyse mit R<br> <a href='https://therbootcamp.github.io'> The R Bootcamp </a> <br> <a href='https://therbootcamp.github.io/I2R_2024Nov/'> <i class='fas fa-clock' style='font-size:.9em;'></i> </a>  <a href='https://therbootcamp.github.io'> <i class='fas fa-home' style='font-size:.9em;' ></i> </a>  <a href='mailto:therbootcamp@gmail.com'> <i class='fas fa-envelope' style='font-size: .9em;'></i> </a>  <a href='https://www.linkedin.com/company/basel-r-bootcamp/'> <i class='fab fa-linkedin' style='font-size: .9em;'></i> </a>
 ]
 .date[
-### Februar 2024
+### November 2024
 ]
 
 ---
@@ -41,7 +41,7 @@ layout: true
     &lt;/a&gt;
     &lt;a href="https://therbootcamp.github.io/"&gt;
       &lt;font color="#7E7E7E"&gt;
-      Einführung in die moderne Datenanalyse mit R | Februar 2024
+      Einführung in die moderne Datenanalyse mit R | November 2024
       &lt;/font&gt;
     &lt;/a&gt;
     &lt;/span&gt;
@@ -75,8 +75,8 @@ Ihr kennt nun die Grundlagen von R!
 
 &lt;font size = 6&gt;
 
-1. `tidyverse` Kern&lt;br&gt;
-2. `tidyverse` erweitert&lt;br&gt;
+1. tidyverse Kern&lt;br&gt;
+2. tidyverse erweitert&lt;br&gt;
 3. Statistik&lt;br&gt;
 4. Maschinelles Lernen&lt;br&gt;
 5. Reporting&lt;br&gt;
@@ -143,7 +143,7 @@ Das [`tidyverse`](https://www.tidyverse.org/) ist im Kern eine Sammlung hoch-per
 .pull-left45[
 
 
-```r
+``` r
 library(tidyverse) ; library(ggrepel)
 
 # Lade Tourismus Daten
@@ -174,7 +174,7 @@ ggplot(data = tour,
 .pull-left45[
 
 
-```r
+``` r
 library(tidyverse) ; library(ggrepel)
 
 # Lade Tourismus Daten
@@ -209,7 +209,7 @@ ggplot(data = tour,
 .pull-left45[
 
 
-```r
+``` r
 library(tidyverse) ; library(ggrepel)
 
 # Lade Tourismus Daten
@@ -243,7 +243,7 @@ ggplot(data = tour,
 .pull-left45[
 
 
-```r
+``` r
 library(tidyverse) 
 
 # Lade Tourismus Daten
@@ -287,7 +287,7 @@ tour %&gt;%
 .pull-left45[
 
 
-```r
+``` r
 library(tidyverse) 
 
 # Lade Tourismus Daten
@@ -328,7 +328,7 @@ tour %&gt;%
 .pull-left45[
 
 
-```r
+``` r
 library(tidyverse) ; library(ggrepel)
 
 # Lade Tourismus Daten
@@ -403,7 +403,7 @@ Das Umfeld des [`tidyverse`](https://www.tidyverse.org/) beinhaltet eine Sammlun
 
 
 
-```r
+``` r
 # Tabelle laden von Wikipedia (Pakete nicht vergessen)
 read_html("https://de.wikipedia.org/wiki/R_(Programmiersprache)") %&gt;%
   html_node(xpath = '//*[@id="mw-content-text"]/div[1]/table[3]') %&gt;%
@@ -435,7 +435,7 @@ read_html("https://de.wikipedia.org/wiki/R_(Programmiersprache)") %&gt;%
 .pull-left5[
 
 
-```r
+``` r
 library(tidytext) ; library(wordcloud)
 library(dplyr) ; library(stringr)
 
@@ -471,7 +471,7 @@ wordcloud(counts$word,
 .pull-left45[
 
 
-```r
+``` r
 library(tidyverse)
 
 # Lade Tourismus Daten
@@ -495,7 +495,7 @@ model = lm(Nächte ~ Bevölkerung +
 
 
 
-```r
+``` r
 # Bestimmtheitsmass
 summary(model)$r.squared
 ```
@@ -506,7 +506,7 @@ summary(model)$r.squared
 
 
 
-```r
+``` r
 # Koeffizienten
 summary(model)$coef[,-2]
 ```
@@ -528,7 +528,7 @@ summary(model)$coef[,-2]
 # Maschinelles Lernen
 
 
-```r
+``` r
 library(tidyverse) ; library(rpart)
 
 # Lade Tourismus Daten
@@ -623,7 +623,8 @@ R und RStudio bieten auch exzellente Werkzeuge zum erstellen von &lt;high&gt;Ber
 &lt;br&gt;
 
 .pull-right5[
-&lt;p align="center"&gt;&lt;img border="0" alt="W3Schools" src="http://www.theunmanageableemployee.com/wp-content/uploads/2011/07/5cs-stones-cropped-11052730.jpg?w=112"&gt;&lt;/p&gt;
+&lt;p align="center"&gt;&lt;img height="350" alt="image of stairs" src="image/stairs_small.jpg"&gt;&lt;/p&gt;
+&lt;font style="font-size:10px"&gt;Foto von &lt;a href="https://www.pexels.com/de-de/foto/treppen-graustufenfotografie-921025/"&gt;Jorge Arturo Andrade&lt;/a&gt;&lt;/font&gt;
 ]
 
 ---
@@ -700,67 +701,67 @@ Hier ist eine unvollständige Liste guter Bücher über R lose geordnet nach vor
 &lt;br&gt;
 
 
----
+&lt;!-- --- --&gt;
 
-# Weiterführende Kurse
+&lt;!-- # Weiterführende Kurse --&gt;
 
 
-&lt;table class="tg"  style="cellspacing:0; cellpadding:0; border:none;"&gt;
-&lt;tr valign="top"&gt;
-  &lt;col width="20%"&gt;
-  &lt;col width="20%"&gt;
-  &lt;col width="20%"&gt;
-  &lt;col width="20%"&gt;
-  &lt;col width="20%"&gt;
-  &lt;!-- &lt;td&gt; --&gt;
-  &lt;!--   &lt;p align="center"&gt; --&gt;
-  &lt;!--     &lt;a class="project-link" href="https://therbootcamp.github.io/#courses" align="center"&gt; --&gt;
-  &lt;!--     &lt;font style="font-size:20px;weight:700"&gt;&lt;br&gt;Einführung in die moderne Datenanalyse mit R&lt;/font&gt;&lt;br&gt; --&gt;
-  &lt;!--     &lt;br&gt; --&gt;
-  &lt;!--     &lt;img src="https://therbootcamp.github.io/img/courses/0.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"&gt;&lt;/img&gt;&lt;br&gt;&lt;br&gt; --&gt;
-  &lt;!--     &lt;high&gt;Apr 8,&lt;br&gt;2022&lt;/high&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt; --&gt;
-  &lt;!--   &lt;/p&gt; --&gt;
-  &lt;!-- &lt;/td&gt; --&gt;
-  &lt;td&gt;
-    &lt;p align="center"&gt;
-      &lt;a class="project-link" href="https://advancedstudies.unibas.ch/studienangebot/kurs/explorative-datenanalyse-mit-r-webinar-272006" align="center"&gt;
-      &lt;font style="font-size:20px;weight:700"&gt;&lt;br&gt;Explorative Datenanalyse mit R&lt;br&gt;&lt;/font&gt;&lt;br&gt;
-      &lt;br&gt;
-      &lt;img src="https://therbootcamp.github.io/img/courses/1.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"&gt;&lt;/img&gt;&lt;br&gt;&lt;br&gt;
-      &lt;high&gt;15-16. März&lt;/high&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-    &lt;/p&gt;
-  &lt;/td&gt;
-  &lt;td&gt;
-    &lt;p align="center"&gt;
-      &lt;a class="project-link" href="https://therbootcamp.github.io/#courses" align="center"&gt;
-      &lt;font style="font-size:20px;weight:700"&gt;&lt;br&gt;Statistik mit R&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;
-      &lt;br&gt;
-      &lt;img src="https://therbootcamp.github.io/img/courses/2.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"&gt;&lt;/img&gt;&lt;br&gt;&lt;br&gt;
-      &lt;high&gt;tba&lt;/high&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-      &lt;/a&gt;
-    &lt;/p&gt;
-  &lt;/td&gt;
-  &lt;td&gt;
-    &lt;p align="center"&gt;
-      &lt;a class="project-link" href="https://therbootcamp.github.io/#courses" align="center"&gt;
-      &lt;font style="font-size:20px;weight:700"&gt;&lt;br&gt;Maschinelles Lernen mit R&lt;br&gt;&lt;/font&gt;&lt;br&gt;
-      &lt;br&gt;
-      &lt;img src="https://therbootcamp.github.io/img/courses/3.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"&gt;&lt;/img&gt;&lt;br&gt;&lt;br&gt;
-      &lt;high&gt;tba&lt;/high&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-      &lt;/a&gt;
-    &lt;/p&gt;
-  &lt;/td&gt;
-  &lt;td&gt;
-    &lt;p align="center"&gt;
-      &lt;a class="project-link" href="https://therbootcamp.github.io/#courses" align="center"&gt;
-      &lt;font style="font-size:20px;weight:700"&gt;&lt;br&gt;Reporting mit R&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;
-      &lt;br&gt;
-      &lt;img src="https://therbootcamp.github.io/img/courses/4.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"&gt;&lt;/img&gt;&lt;br&gt;&lt;br&gt;
-      &lt;high&gt;tba&lt;/high&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-      &lt;/a&gt;
-    &lt;/p&gt;
-  &lt;/td&gt;
-  &lt;/tr&gt;
+&lt;!-- &lt;table class="tg"  style="cellspacing:0; cellpadding:0; border:none;"&gt; --&gt;
+&lt;!-- &lt;tr valign="top"&gt; --&gt;
+&lt;!--   &lt;col width="20%"&gt; --&gt;
+&lt;!--   &lt;col width="20%"&gt; --&gt;
+&lt;!--   &lt;col width="20%"&gt; --&gt;
+&lt;!--   &lt;col width="20%"&gt; --&gt;
+&lt;!--   &lt;col width="20%"&gt; --&gt;
+&lt;!--   &lt;!-- &lt;td&gt; --&gt; 
+&lt;!--   &lt;!--   &lt;p align="center"&gt; --&gt;
+&lt;!--   &lt;!--     &lt;a class="project-link" href="https://therbootcamp.github.io/#courses" align="center"&gt; --&gt; 
+&lt;!--   &lt;!--     &lt;font style="font-size:20px;weight:700"&gt;&lt;br&gt;Einführung in die moderne Datenanalyse mit R&lt;/font&gt;&lt;br&gt; --&gt;
+&lt;!--   &lt;!--     &lt;br&gt; --&gt; 
+&lt;!--   &lt;!--     &lt;img src="https://therbootcamp.github.io/img/courses/0.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"&gt;&lt;/img&gt;&lt;br&gt;&lt;br&gt; --&gt; 
+&lt;!--   &lt;!--     &lt;high&gt;Apr 8,&lt;br&gt;2022&lt;/high&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt; --&gt;
+&lt;!--   &lt;!--   &lt;/p&gt; --&gt;
+&lt;!--   &lt;!-- &lt;/td&gt; --&gt;
+&lt;!--   &lt;td&gt; --&gt;
+&lt;!--     &lt;p align="center"&gt; --&gt;
+&lt;!--       &lt;a class="project-link" href="https://advancedstudies.unibas.ch/studienangebot/kurs/explorative-datenanalyse-mit-r-webinar-272006" align="center"&gt; --&gt;
+&lt;!--       &lt;font style="font-size:20px;weight:700"&gt;&lt;br&gt;Explorative Datenanalyse mit R&lt;br&gt;&lt;/font&gt;&lt;br&gt; --&gt;
+&lt;!--       &lt;br&gt; --&gt;
+&lt;!--       &lt;img src="https://therbootcamp.github.io/img/courses/1.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"&gt;&lt;/img&gt;&lt;br&gt;&lt;br&gt; --&gt;
+&lt;!--       &lt;high&gt;15-16. März&lt;/high&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt; --&gt;
+&lt;!--     &lt;/p&gt; --&gt;
+&lt;!--   &lt;/td&gt; --&gt;
+&lt;!--   &lt;td&gt; --&gt;
+&lt;!--     &lt;p align="center"&gt; --&gt;
+&lt;!--       &lt;a class="project-link" href="https://therbootcamp.github.io/#courses" align="center"&gt; --&gt;
+&lt;!--       &lt;font style="font-size:20px;weight:700"&gt;&lt;br&gt;Statistik mit R&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt; --&gt;
+&lt;!--       &lt;br&gt; --&gt;
+&lt;!--       &lt;img src="https://therbootcamp.github.io/img/courses/2.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"&gt;&lt;/img&gt;&lt;br&gt;&lt;br&gt; --&gt;
+&lt;!--       &lt;high&gt;tba&lt;/high&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt; --&gt;
+&lt;!--       &lt;/a&gt; --&gt;
+&lt;!--     &lt;/p&gt; --&gt;
+&lt;!--   &lt;/td&gt; --&gt;
+&lt;!--   &lt;td&gt; --&gt;
+&lt;!--     &lt;p align="center"&gt; --&gt;
+&lt;!--       &lt;a class="project-link" href="https://therbootcamp.github.io/#courses" align="center"&gt; --&gt;
+&lt;!--       &lt;font style="font-size:20px;weight:700"&gt;&lt;br&gt;Maschinelles Lernen mit R&lt;br&gt;&lt;/font&gt;&lt;br&gt; --&gt;
+&lt;!--       &lt;br&gt; --&gt;
+&lt;!--       &lt;img src="https://therbootcamp.github.io/img/courses/3.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"&gt;&lt;/img&gt;&lt;br&gt;&lt;br&gt; --&gt;
+&lt;!--       &lt;high&gt;tba&lt;/high&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt; --&gt;
+&lt;!--       &lt;/a&gt; --&gt;
+&lt;!--     &lt;/p&gt; --&gt;
+&lt;!--   &lt;/td&gt; --&gt;
+&lt;!--   &lt;td&gt; --&gt;
+&lt;!--     &lt;p align="center"&gt; --&gt;
+&lt;!--       &lt;a class="project-link" href="https://therbootcamp.github.io/#courses" align="center"&gt; --&gt;
+&lt;!--       &lt;font style="font-size:20px;weight:700"&gt;&lt;br&gt;Reporting mit R&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt; --&gt;
+&lt;!--       &lt;br&gt; --&gt;
+&lt;!--       &lt;img src="https://therbootcamp.github.io/img/courses/4.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"&gt;&lt;/img&gt;&lt;br&gt;&lt;br&gt; --&gt;
+&lt;!--       &lt;high&gt;tba&lt;/high&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt; --&gt;
+&lt;!--       &lt;/a&gt; --&gt;
+&lt;!--     &lt;/p&gt; --&gt;
+&lt;!--   &lt;/td&gt; --&gt;
+&lt;!--   &lt;/tr&gt; --&gt;
 
 
 ---
@@ -779,8 +780,7 @@ Hier ist eine unvollständige Liste guter Bücher über R lose geordnet nach vor
 .pull-right45[
 
 &lt;p align="center"&gt;&lt;br&gt;&lt;br&gt;
-&lt;iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdoOFbnEebwvKpt9gJl7Pr68jPVGYP7FRBgrJus-QvGfRTWPA/viewform?embedded=true" width="430" height="550" frameborder="0" marginheight="0" marginwidth="0"&gt;Loading…&lt;/iframe&gt;&lt;/p&gt;
-
+&lt;iframe src="https://docs.google.com/forms/d/e/1FAIpQLScXlWyK_oGIf3am1YFVtR33DEgIQCEj_iTfyAGDn0tBJl_kDw/viewform?embedded=true" width="430" height="550" frameborder="0" marginheight="0" marginwidth="0"&gt;Loading…&lt;/iframe&gt;
 
 ]
 
