@@ -19,7 +19,7 @@ class: center, middle, inverse, title-slide
 ### Einführung in die moderne Datenanalyse mit R<br> <a href='https://therbootcamp.github.io'> The R Bootcamp </a> <br> <a href='https://therbootcamp.github.io/I2R_2024Feb/'> <i class='fas fa-clock' style='font-size:.9em;'></i> </a>  <a href='https://therbootcamp.github.io'> <i class='fas fa-home' style='font-size:.9em;' ></i> </a>  <a href='mailto:therbootcamp@gmail.com'> <i class='fas fa-envelope' style='font-size: .9em;'></i> </a>  <a href='https://www.linkedin.com/company/basel-r-bootcamp/'> <i class='fab fa-linkedin' style='font-size: .9em;'></i> </a>
 ]
 .date[
-### Februar 2024
+### November 2024
 ]
 
 ---
@@ -41,7 +41,7 @@ layout: true
     &lt;/a&gt;
     &lt;a href="https://therbootcamp.github.io/"&gt;
       &lt;font color="#7E7E7E"&gt;
-      Einführung in die moderne Datenanalyse mit R | Februar 2024
+      Einführung in die moderne Datenanalyse mit R | November 2024
       &lt;/font&gt;
     &lt;/a&gt;
     &lt;/span&gt;
@@ -131,7 +131,7 @@ layout: true
 
 .pull-right5[
 
-```r
+``` r
 # Funktion c()
 eins_zwei_drei &lt;- c(1, 2, 3)
 
@@ -143,7 +143,7 @@ eins_zwei_drei + 100
 ## [1] 101 102 103
 ```
 
-```r
+``` r
 # Funktion print()
 eins_zwei_drei
 ```
@@ -152,7 +152,7 @@ eins_zwei_drei
 ## [1] 1 2 3
 ```
 
-```r
+``` r
 # Funktion mean()
 mean(eins_zwei_drei)
 ```
@@ -186,7 +186,7 @@ mean(eins_zwei_drei)
 
 .pull-right5[
 
-```r
+``` r
 # Kein Argument
 mean()
 ```
@@ -195,7 +195,7 @@ mean()
 ## Error in mean.default(): argument "x" is missing, with no default
 ```
 
-```r
+``` r
 # Ein (notwendiges) Argument
 mean(c(1, 2, 3))
 ```
@@ -204,7 +204,7 @@ mean(c(1, 2, 3))
 ## [1] 2
 ```
 
-```r
+``` r
 # Hinzufügen eines fehlenden Werts (NA)
 mean(c(1, 2, 3, NA))
 ```
@@ -238,7 +238,7 @@ mean(c(1, 2, 3, NA))
 
 .pull-right5[
 
-```r
+``` r
 # Kein Argument
 mean()
 ```
@@ -247,7 +247,7 @@ mean()
 ## Error in mean.default(): argument "x" is missing, with no default
 ```
 
-```r
+``` r
 # Ein (notwendiges) Argument
 mean(c(1, 2, 3))
 ```
@@ -256,7 +256,7 @@ mean(c(1, 2, 3))
 ## [1] 2
 ```
 
-```r
+``` r
 # Ändere den Default zur Entfernung des NAs
 mean(c(1, 2, 3, NA), na.rm = TRUE)
 ```
@@ -321,7 +321,7 @@ mean(c(1, 2, 3, NA), na.rm = TRUE)
 
 .pull-right5[
 
-```r
+``` r
 # Berechne Mittelwert von c(1, 2, 3)
 mean(c(1, 2, 3))
 ```
@@ -330,7 +330,7 @@ mean(c(1, 2, 3))
 ## [1] 2
 ```
 
-```r
+``` r
 # Berechne Mittelwert von c("1", "2", "3")
 mean(c("1", "2", "3"))
 ```
@@ -396,14 +396,14 @@ mean(c("1", "2", "3"))
 &lt;high&gt;Installiere&lt;/high&gt; Pakete &lt;high&gt;einmal&lt;/high&gt; mit `install.packages()`
 
 
-```r
+``` r
 install.packages("tidyverse")
 ```
 &lt;br2&gt;
 &lt;high&gt;Lade&lt;/high&gt; existierende Pakete &lt;high&gt;jedes mal&lt;/high&gt; mit `library()`
 
 
-```r
+``` r
 library(tidyverse)
 ```
 
@@ -432,7 +432,7 @@ library(tidyverse)
 
 .pull-right5[
 
-```r
+``` r
 ?cor
 ```
 &lt;p align="center"&gt;&lt;img src="https://raw.githubusercontent.com/therbootcamp/therbootcamp.github.io/master/_sessions/_image/help_cor.png" width="500"&gt;&lt;/p&gt;
